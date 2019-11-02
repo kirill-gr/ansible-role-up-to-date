@@ -1,0 +1,10 @@
+= Ansible role: update all packages with apt
+
+Designed for Ubuntu, tested on all versions from 18.04 to 19.10
+
+Runs:
+
+- update (if cache is older than one day)
+- upgrade
+- autoclean
+- autoremove
